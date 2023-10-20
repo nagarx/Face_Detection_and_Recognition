@@ -2,7 +2,7 @@ import face_recognition
 import os
 import pickle
 
-face_images_directory = 'captured_images'  # Replace with your actual path
+face_images_directory = '../captured_images'  # Replace with your actual path
 
 known_faces = {}
 
@@ -43,7 +43,7 @@ for foldername in os.listdir(face_images_directory):
 print("Encodings have been generated.")
 print(known_faces)
 
-filename = 'known_faces.pkl'
+filename = '../data/known_faces.pkl'
 
 with open(filename, 'wb') as file:
     pickle.dump(known_faces, file)

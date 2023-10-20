@@ -1,7 +1,7 @@
 import cv2
 import os
 
-save_directory = "captured_images/person_name"  # change to the name of the person
+save_directory = "../captured_images/person_name"  # change person_name to the name of the person
 os.makedirs(save_directory, exist_ok=True)
 
 cap = cv2.VideoCapture(0)
