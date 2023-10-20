@@ -1,6 +1,6 @@
 # Face Detection and Recognition Project
 
-![Project Showcase](showcase.png)
+![Project Showcase](data/showcase.png)
 
 ## Table of Contents
 
