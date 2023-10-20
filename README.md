@@ -36,7 +36,8 @@ This project aims to provide a real-time face detection and recognition system. 
     ```
 3. Install the required packages
     ```bash
-    pip install -r requirements.txt
+    pip install opencv-python
+    pip install face_recognition
     ```
 
 ## Project Structure
@@ -76,8 +77,3 @@ Face_Detection_and_Recognition/
 ## Contributing
 
 To contribute to this project, please fork the repository and submit a pull request.
-
-## License
-
-MIT License
-```
